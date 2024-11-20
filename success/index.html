@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUCCESS</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        h1 {
+            display: block;
+            text-align: center;
+            padding-top: 15svh;
+        }
+        p {
+            display: block;
+            text-align: center;
+        }
+        iframe {
+            display: flex;
+            justify-content: center;
+            padding: 0.5vw;
+            margin: 0 auto;
+
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <h1>Lucas-Z has been succesfully removed from the site.</h1>
+    <p>...</p>
+
+    <iframe width="672" height="378" src="https://www.youtube.com/embed/RNWj18psqLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <script>
+        // Set a 15-second delay before making the iframe fade in
+        setTimeout(function() {
+            const iframe = document.querySelector('iframe');
+            iframe.style.opacity = 1;
+        }, 10000);  
+    </script>
 </body>
 </html>
